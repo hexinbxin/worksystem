@@ -150,6 +150,7 @@ export default {
       localStorage.removeItem("form");
       this.$store.commit("changeForm", {});
       this.$store.commit("changeLoggedin", false);
+      this.$store.commit("changeinfo", {});
       this.$router.push("/");
     },
     create () {
