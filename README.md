@@ -1,29 +1,23 @@
-# worksystem
+### 功能
+* 登陆
+- 自动登陆
+- token续期
+- 根据账号自动分配路由（老师/学生）
+* 学生页
+- 上传作业
+- 下载已提交过的作业
+- 下载老师上传的附件
+- 查看老师评语
+- 退出登陆
+* 老师页
+- 新建作业
+- 查看有多少学生，有多少交了作业
+- 展开已提交作业的学生列表
+- 收起已提交作业的学生列表
+- 下载所有学生提交的作业
+- 下载单个学生作业
+- 对学生作业进行批改
+- 在批改意见中上传附件
+- 退出
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### 请使用 8080端口打开 测试账号 老师（u: luwei p: luwei） 学生（u: V01002 p: V01002）
